@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Plataformas - Tienda de Videojuegos</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS Personalizado -->
+    <link href="/css/styles.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+</head>
+<body class="bg-light">
+    <!-- Header -->
+    <header class="bg-dark text-white py-3">
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-between">
+                <a href="../../../index.html" class="text-decoration-none text-white">
+                    <h1 class="display-4 mb-0">🎮 GameStore</h1>
+                </a>
+                <div class="d-none d-md-block">
+                    <span class="badge bg-primary">24/7 Soporte</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a href="../../../index.html" class="nav-link">Inicio</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown">
+                            Catálogo
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="plataforma.html" class="dropdown-item active">Plataformas</a></li>
+                            <li><a href="genero.html" class="dropdown-item">Géneros</a></li>
+                            <li><a href="accesorios.html" class="dropdown-item">Accesorios</a></li>
+                            <li><a href="juegos-digitales.html" class="dropdown-item">Juegos Digitales</a></li>
+                        </ul>
+                    </li>
+                    <!-- Resto del menú -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contenido Principal -->
+    <main class="container my-5">
+        <h1 class="display-4 mb-4 text-center">Plataformas Disponibles</h1>
+        
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+            <!-- Tarjeta PC -->
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <img src="/img/plataformas/10069084.png" class="card-img-top" alt="PC Gaming" width="100" height="100">
+                    <div class="card-body">
+                        <h3 class="card-title">PC Gaming</h3>
+                        <p class="card-text">Los mejores juegos para PC</p>
+                        <div class="d-grid">
+                            <a href="/pages/catalogo/pc.html" class="btn btn-primary">
+                                Ver Juegos <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tarjeta PlayStation 4 -->
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <img src="/img/plataformas/PS4-Logo.png" class="card-img-top" alt="PlayStation 4">
+                    <div class="card-body">
+                        <h3 class="card-title">PlayStation 4</h3>
+                        <p class="card-text">Los mejores juegos para PlayStation 4</p>
+                        <div class="d-grid">
+                            <a href="/pages/catalogo/ps4.html" class="btn btn-primary">
+                                Ver Juegos <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tarjeta PlayStation 5 -->
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <img src="/img/plataformas/png-transparent-playstation-ps-5-logo.png" class="card-img-top" alt="PlayStation 5">
+                    <div class="card-body">
+                        <h3 class="card-title">PlayStation 5</h3>
+                        <p class="card-text">Los mejores juegos para PlayStation 5</p>
+                        <div class="d-grid">
+                            <a href="/pages/catalogo/ps5.html" class="btn btn-primary">
+                                Ver Juegos <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tarjeta Nintendo Switch -->
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <img src="/img/plataformas/png-transparent-wii-xbox-360-nintendo-switch-logo-nintendo-text-nintendo-video-game-thumbnail.png" class="card-img-top" alt="Nintendo Switch">
+                    <div class="card-body">
+                        <h3 class="card-title">Nintendo Switch</h3>
+                        <p class="card-text">Los mejores juegos para Nintendo Switch</p>
+                        <div class="d-grid">
+                            <a href="/pages/catalogo/switch.html" class="btn btn-primary">
+                                Ver Juegos <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <!-- Navegación Inferior -->
+        <div class="d-flex justify-content-between mt-5">
+            <a href="/pages/catalogo/index.html" class="btn btn-outline-primary">
+                <i class="bi bi-arrow-left"></i> Volver al Catálogo
+            </a>
+            <a href="../../../index.html" class="btn btn-outline-secondary">
+                <i class="bi bi-house"></i> Volver al Inicio
+            </a>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="mb-0">© 2023 Tienda de Videojuegos. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
