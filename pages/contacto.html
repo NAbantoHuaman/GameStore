@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - GameStore</title>
+</head>
+<body bgcolor="black" text="white">
+    <!-- Botón para volver al inicio -->
+    <div align="center" style="margin-top: 20px;">
+        <a href="/index.html">
+            <button>
+                <font size="4" color="black">Volver al Inicio</font>
+            </button>
+        </a>
+    </div>
+
+    <!-- Contenido Principal -->
+    <main>
+        <section align="center">
+            <h1><font color="lime" size="7">Contacto</font></h1>
+            <p><font size="4" color="white">Si tienes alguna pregunta o comentario, no dudes en contactarnos a través de los siguientes medios:</font></p>
+            <ul>
+                <li><font size="4" color="white">Correo Electrónico: contacto@gamestore.com</font></li>
+                <li><font size="4" color="white">Teléfono: +1 800 123 4567</font></li>
+                <li><font size="4" color="white">Dirección: 123 Calle Principal, Ciudad, País</font></li>
+            </ul>
+            <h2><font color="lime" size="5">Formulario de Contacto</font></h2>
+            <form action="/submit_contacto" method="post">
+                <label for="nombre"><font size="4" color="white">Nombre:</font></label><br>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+                <label for="email"><font size="4" color="white">Correo Electrónico:</font></label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="mensaje"><font size="4" color="white">Mensaje:</font></label><br>
+                <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br>
+                <button type="submit"><font size="4" color="black">Enviar</font></button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
