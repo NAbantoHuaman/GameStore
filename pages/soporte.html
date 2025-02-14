@@ -6,14 +6,29 @@
     <title>Soporte - GameStore</title>
 </head>
 <body bgcolor="black" text="white">
-    <!-- Botón para volver al inicio -->
-    <div align="center" style="margin-top: 20px;">
-        <a href="/index.html">
-            <button>
-                <font size="4" color="black">Volver al Inicio</font>
-            </button>
-        </a>
-    </div>
+    <header align="center">
+        <hr color="lime">
+        <h1><font color="lime" size="10">🎮GameStore</font></h1>
+        <hr color="lime">
+        <p><strong><font size="6">🕹️ Tu tienda de videojuegos de confianza</font></strong></p>
+        <p><strong><font size="5">📞 Soporte 24/7</font></strong></p>
+        <hr color="lime">
+    </header>
+
+    <!-- Navegación -->
+    <nav align="center">
+        <h2><font color="cyan" size="6">📌 Navegación</font></h2>
+        <table cellpading="10" cellspacing="20" align="center">
+            <tr>
+                <td><button onclick="window.location.href='/index.html'"><font color="black" size="4">🏠 Inicio</font></button></td>
+                <td><button onclick="window.location.href='/pages/catalogo/catalogo.html'"><font color="black" size="4">📚 Catálogo</font></button></td>
+                <td><button onclick="window.location.href='/pages/nosotros.html'"><font color="black" size="4">👥 Nosotros</font></button></td>
+                <td><button onclick="window.location.href='/pages/soporte.html'"><font color="black" size="4">🛠️ Soporte</font></button></td>
+                <td><button onclick="window.location.href='/pages/carrito.html'"><font color="black" size="4">🛒 Carrito</font></button></td>
+            </tr>
+        </table>
+        <hr color="lime">
+    </nav>
 
     <!-- Contenido Principal -->
     <main>
@@ -36,6 +51,9 @@
                 <button type="submit"><font size="4" color="black">Enviar</font></button>
             </form>
         </section>
-    </main>
+    </main><br>
+    <footer align="center">
+        <p><font color="white">© 2025 Tienda de Videojuegos. Todos los derechos reservados.</font></p>
+    </footer>
 </body>
 </html>
