@@ -60,18 +60,18 @@ GameStore es una tienda de videojuegos en línea diseñada para ofrecer una expe
 
 3. Abre el archivo index.html en tu navegador para ver la página principal.
 
-Uso:
+## Uso:
 -Navega por las diferentes páginas utilizando los enlaces de navegación.
 -Regístrate e inicia sesión para acceder a funcionalidades adicionales.
 -Añade productos al carrito y procede al pago.
 
-Tecnologías Utilizadas:
+## Tecnologías Utilizadas:
 -HTML5
 
-Hosting:
+## Hosting:
 El proyecto está alojado en Vercel. Puedes acceder a la tienda en el siguiente enlace: GameStore en Vercel
 
-Contribuciones:
+## Contribuciones:
 Las contribuciones son bienvenidas. Si deseas contribuir, por favor sigue los siguientes pasos:
 
 1.Haz un fork del repositorio.
@@ -80,8 +80,8 @@ Las contribuciones son bienvenidas. Si deseas contribuir, por favor sigue los si
 4.Haz push a la rama (git push origin feature/nueva-funcionalidad).
 5.Abre un Pull Request.
 
-Licencia:
+## Licencia:
 Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
 
-Contacto:
+## Contacto:
 Para cualquier consulta, puedes contactarme a través de abantohuamanp3@gmail.com.
