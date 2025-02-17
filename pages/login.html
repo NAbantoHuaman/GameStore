@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión - GameStore</title>
+</head>
+<body bgcolor="black" text="white">
+
+    <!-- Header -->
+    <header align="center">
+        <hr color="lime">
+        <h1><font color="lime" size="10">🎮 GameStore</font></h1>
+        <hr color="lime">
+        <p><strong><font size="6">🕹️ Tu tienda de videojuegos de confianza</font></strong></p>
+        <p><strong><font size="5">📞 Soporte 24/7</font></strong></p>
+        <hr color="lime">
+    </header>
+
+    <!-- Navegación -->
+    <nav align="center">
+        <h2><font color="cyan" size="6">📌 Navegación</font></h2>
+        <table cellpadding="10" cellspacing="20" align="center">
+            <tr>
+                <td><button onclick="window.location.href='/index.html'"><font color="black" size="4">🏠 Inicio</font></button></td>
+                <td><button onclick="window.location.href='/pages/catalogo.html'"><font color="black" size="4">📚 Catálogo</font></button></td>
+                <td><button onclick="window.location.href='/pages/nosotros.html'"><font color="black" size="4">👥 Nosotros</font></button></td>
+                <td><button onclick="window.location.href='/pages/soporte.html'"><font color="black" size="4">🛠️ Soporte</font></button></td>
+                <td><button onclick="window.location.href='/pages/carrito.html'"><font color="black" size="4">🛒 Carrito</font></button></td>
+            </tr>
+        </table>
+        <hr color="lime">
+    </nav>
+
+    <!-- Contenido Principal -->
+    <main align="center">
+        <h2><font color="lime" size="7">Iniciar Sesión</font></h2>
+        <form action="/submit_login" method="post">
+            <table cellpadding="10" cellspacing="10" align="center" bgcolor="#222">
+                <tr>
+                    <td><font color="white" size="4">Correo Electrónico:</font></td>
+                    <td><input type="email" name="email" required></td>
+                </tr>
+                <tr>
+                    <td><font color="white" size="4">Contraseña:</font></td>
+                    <td><input type="password" name="password" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <button type="submit" style="background-color: slateblue; color: white; padding: 10px; border: none; cursor: pointer;">
+                            <font color="white">Iniciar Sesión</font>
+                        </button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </main>
+
+    <!-- Footer -->
+    <footer align="center" bgcolor="darkslategray" style="padding: 20px; margin-top: 20px;">
+        <p><font color="white">© 2025 Tienda de Videojuegos. Todos los derechos reservados.</font></p>
+    </footer>
+
+</body>
+</html>
